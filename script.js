@@ -3,13 +3,13 @@ const menuItems = [
   {
     name: "Classic Glazed Donut",
     category: "Donut",
-    price: "$2.99",
+    price: "$.99",
     image: "images/glazed.jpg",
   },
   {
     name: "Chocolate Donut",
     category: "Donut",
-    price: "$3.49",
+    price: "$1.49",
     image: "images/chocolate.jpg",
   },
   {
