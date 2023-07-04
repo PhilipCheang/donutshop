@@ -4,7 +4,6 @@ body {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -57,13 +56,6 @@ p {
 .navbar-brand {
   font-size: 2.2rem;
 }
-@media (min-width: 768px) {
-  .navbar-brand {
-    font-family: "Ubuntu";
-    font-size: 2.5rem;
-    font-weight: Bold;
-  }
-}
 
 .nav-item {
   padding: 0 18px;
@@ -79,11 +71,7 @@ p {
 .download-button {
   width: 165px;
 }
-@media (min-width: 768px) {
-  .download-button {
-    margin: 5% 3% 5% 0;
-  }
-}
+
 /* Title Section  */
 
 #title .container-fluid {
@@ -95,14 +83,6 @@ p {
 
 .title-image {
   margin-top: 10px;
-}
-@media (min-width: 768px) {
-  .title-image {
-    width: 20%;
-    transform: rotate(25deg);
-    position: absolute;
-    right: 25%;
-  }
 }
 
 /* Features Section */
@@ -134,9 +114,11 @@ p {
   background-color: #ef8172;
 }
 
-.testimonial-text {
+.testimonial-text1,
+.testimonial-text2,
+.testimonial-text3 {
   font-family: "Montserrat";
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 500;
   line-height: 1.5;
 }
@@ -145,12 +127,6 @@ p {
   margin: 20px 0px;
   width: 300px;
   height: 500px;
-}
-@media (min-width: 768px) {
-  .testimonial-image {
-    width: 500px;
-    height: 700px;
-  }
 }
 
 #press {
@@ -193,6 +169,57 @@ p {
 .social {
   padding: 20px 10px;
   color: black;
+}
+
+@media screen and (max-width: 666px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  .big-heading {
+    font-size: 1.9rem;
+  }
+  h2 .testimonial-text1 {
+    font-size: 0.5rem;
+  }
+  .testimonial-image1,
+  .testimonial-image2,
+  .testimonial-image3 {
+    width: 261px;
+    height: 300px;
+  }
+  #pricing {
+    padding: 50px;
+  }
+  .section-heading {
+    font-size: 2rem;
+    line-height: 1.5;
+    width: 100%;
+  }
+  #menu {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: Bold;
+  }
+  .testimonial-image {
+    width: 500px;
+    height: 700px;
+  }
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+  .title-image {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+  }
 }
 
 @media (max-width: 1028px) {
