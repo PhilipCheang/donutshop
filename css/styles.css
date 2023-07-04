@@ -123,9 +123,11 @@ p {
   line-height: 1.5;
 }
 
-.testimonial-image {
+.testimonial-image1,
+.testimonial-image2,
+.testimonial-image3 {
   margin: 20px 0px;
-  width: 300px;
+  width: 400px;
   height: 500px;
 }
 
@@ -201,7 +203,7 @@ p {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 667px) {
   .navbar-brand {
     font-family: "Ubuntu";
     font-size: 2.5rem;
